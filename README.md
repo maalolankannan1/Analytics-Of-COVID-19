@@ -51,6 +51,13 @@ Correlation matrix was shown for the 2 split datasets and also for the whole dat
 
 Descriptive Analysis was done with the use of different types of plots. These plots helped us to make decisions on which way to take forward. A plot on Confirmed cases per day vs Days helped us find the elbow point of March 15. After splitting up based on this point the results improved as this reduced a lot of hidden factors that might have skewed the model. Plots between Confirmed cases grouped by only pressure or only precipitation Intensity was not fruitful as the graph showed no trend in this manner. Using the correlation values obtained, pairs of variables that had good correlation with each other and with the Confirmed Cases were taken and plotted. For this plotly.express graphs were used. Each graph had one weather parameter each in the x-axis and y axis, and the intensity of colour of the data circles and their size corresponded to the Confirmed Cases count. All these plots did not follow any specific trend. Very minute trends were observed when graphs were plotted only for a particular month, that too for months till March as till then the virus was concentrated in China alone.
 
+## **CONCLUSION:**
+
+In this work, we are motivated to study and analyze the impact of different weather parameters in relation to the number of infected cases due to COVID-19. We have presented descriptive and predictive analytics for the spread of COVID-19 on different features taken from climatic conditions such as temperature, humidity, dew point, wind speed, pressure and precipitation intensity. To validate the proposed result, we have used publicly available datasets which were trained on the specified climatic conditions.
+  
+  In our fight against coronavirus, it is possible to note here that this project can be used as an input to create general awareness and bust the myth on weather stimulating coronavirus spread that emerged during the past couple of months. Moreover, as we are limping through this period, it is advisable to continue with the lockdown and ensure social distancing until the vaccine is created irrespective of the change in climate.
+
+
 ## **REFERENCES**<br>
 
 [1]   https://www.voksedigital.com/data-analytics-life-cycle/ (Fig.1)<br>

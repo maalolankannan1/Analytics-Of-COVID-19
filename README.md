@@ -34,18 +34,18 @@ All the rows that had an NA value for the State/Province value were removed as i
 
 Observing the plot of total confirmed cases per day vs Days, it was decided to split the dataset into 2 sets - one before March 15 and the other After March 15. March 15 was an elbow point in the graph plotted. The data before and after March 15 were grouped by the Country name and it was observed that for the dataset before March 15, China had a very huge number of Confirmed Cases than the rest. Including the rest hinders our prediction as even with the same environmental conditions there weren't any cases there only because the Virus was concentrated in China mostly till then. Thus we had only China before March 15. For the after March 15 dataset, Netherlands and Denmark were removed on the same grounds.
 Correlation matrix was shown for the 2 split datasets and also for the whole dataset. Then different Machine Learning models were used to try and fit the data to it. The following models were performed:
-  1.	Linear regression:
-    a.	With combination of max correlated features.
-    b.	Simple Linear regression with a weather parameter.
-    c.	With all the weather parameters.
-  2.	XGboost:
-    a.	Simple
-    b.  Multiple
+  1.	Linear regression:<br>
+    a.	With combination of max correlated features.<br>
+    b.	Simple Linear regression with a weather parameter.<br>
+    c.	With all the weather parameters.<br>
+  2.	XGboost:<br>
+    a.	Simple<br>
+    b.  Multiple<br>
   3.	SVM
   4.	Decision Tree based
-  5.	Considering only China (more number of cases):
-    a.	Linear regression
-    b.	Xgboost
+  5.	Considering only China (more number of cases):<br>
+    a.	Linear regression<br>
+    b.	Xgboost<br>
 
 **VI.	Data Visualization:**
 

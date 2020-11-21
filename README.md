@@ -7,10 +7,11 @@ Data analytics based project.
 3.  Yeshwanth R (https://github.com/Yeshwanthr002)
 
 The pandas library of Python was majorly used to help work with the datasets and perform tasks on it. All the stages of Data Analytics Life Cycle are a part of this project.
-
-![image](https://user-images.githubusercontent.com/42891566/99869198-1f76f580-2bef-11eb-8ca6-b6b9c3ed4c4d.png)
-
-                    Fig. 1 The Data Analytics Life Cycle
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/42891566/99869198-1f76f580-2bef-11eb-8ca6-b6b9c3ed4c4d.png?raw=true" alt="Data Analytics Life Cycle"/>
+  <br>
+  Fig. 1 The Data Analytics Life Cycle
+</p>
 
 **I.	Objective:**
 
